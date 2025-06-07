@@ -25,7 +25,7 @@ export class InfraStack extends cdk.Stack {
     });
 
     const asset = new ecrAssets.DockerImageAsset(this, 'ImageAsset', {
-      directory: path.join(__dirname, '../../server'),     
+      directory: path.join(__dirname, '../../demo-mcp-server'),     
     });
 
     const image = ecs.ContainerImage.fromDockerImageAsset(asset);
