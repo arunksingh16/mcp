@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]==0.24.0
+boto3==1.34.0
+botocore==1.34.0
+mcp
+pydantic
+python-multipart
