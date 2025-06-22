@@ -138,3 +138,11 @@ docker build -t mcp .
 docker run -p 8080:8080 mcp
 ```
 
+### starting from scratch
+```bash
+npm init -y
+npm install --save-dev typescript ts-node @types/node
+npx tsc --init
+npm install --save @modelcontextprotocol/sdk express
+npm install --save-dev @types/express
+```
