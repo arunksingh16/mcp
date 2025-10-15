@@ -6,7 +6,7 @@ import httpx
 import os
 from typing import Dict, Any, List
 
-
+# API_URL
 API_URL = os.environ.get("API_URL")
 # Get API key from environment variable, with a fallback for local development
 API_KEY = os.environ.get("API_KEY")
